@@ -1,0 +1,39 @@
+# FFT Spectrum Analyzer — .gitignore
+
+# CMake build directory
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+
+# Compiled binaries
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.o
+
+# Generated CSV results (keep .gitkeep)
+results/*.csv
+results/*.png
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code
+.vscode/
+
+# IDE / editor files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
